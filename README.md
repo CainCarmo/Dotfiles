@@ -12,6 +12,18 @@
 
 Welcome to my Dotfiles repository! This repository contains all my personal configurations and customizations for various tools and applications. The main branch consolidates all the customizations from the other separate branches, making it easier to manage and deploy.
 
+<details open>
+  <summary>
+    <h2>
+      <a href="https://github.com/CainCarmo/Dotfiles/tree/kuroshiro">🦳 Kuroshiro</a>
+    </h2>
+  </summary>
+
+  <img align="center" width="100%" src="https://raw.githubusercontent.com/CainCarmo/Dotfiles/refs/heads/kuroshiro/assets/images/1.png" />
+  <br><br>
+  <img align="center" width="100%" src="https://raw.githubusercontent.com/CainCarmo/Dotfiles/refs/heads/kuroshiro/assets/images/7.png" />
+</details>
+
 ## 👥 Contributing
 
 Feel free to fork this repository and submit pull requests. Contributions are welcome!
