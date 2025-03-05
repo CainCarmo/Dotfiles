@@ -1,0 +1,95 @@
+@import url("./themes/gruvbox-dark.css");
+
+* {
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: FiraCode, sans-serif;
+  color: @foreground;
+}
+
+window#waybar {
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: @background;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+#custom-os {
+  padding: 0 5px 0 0;
+  font-size: 24px;
+}
+
+#tray {
+  padding: 6px 0 0 0;
+}
+
+#workspaces {
+  margin: 6px 0;
+  background-color: @background-0h;
+}
+
+#workspaces button * {
+  color: @background-3;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#workspaces button:hover {
+  border: 0;
+  background-color: @background-0s;
+}
+
+#workspaces button.active {
+  background-color: transparent;
+}
+
+#workspaces button.active * {
+  color: @green-dark;
+}
+
+#workspaces button.urgent {
+  background-color: @red-dark;
+}
+
+#network {
+  font-size: 14px;
+  padding: 0 5px 6px 0;
+}
+
+#wireplumber {
+  font-size: 14px;
+  padding: 0 3px 6px 0;
+}
+
+#backlight {
+  font-size: 14px;
+  padding: 0 3px 6px 0;
+}
+
+#battery {
+  font-size: 14px;
+  padding: 0 0px 6px 0;
+}
+
+#clock {
+  margin: 0 0 12px 0;
+  padding: 6px;
+  font-size: 16px;
+  background-color: @background-0h;
+}

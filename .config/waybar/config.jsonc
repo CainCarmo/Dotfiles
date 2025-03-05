@@ -1,0 +1,89 @@
+{
+  /* Setup Bar */
+  "layer": "top",
+  "margin": "12 6",
+  "position": "left",
+  "modules-left": ["custom/os", "hyprland/workspaces", "tray"],
+  "modules-right": [
+    "network",
+    "wireplumber",
+    "backlight",
+    "battery",
+    "clock",
+    "hyprland/language"
+  ],
+  "reload_style_on_change": true,
+
+  /* Setup Modules */
+  "custom/os": {
+    "format": "󰣇",
+    "tooltip": false
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    },
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "default": "ツ"
+    },
+    "on-click": "activate"
+  },
+  "tray": {
+    "spacing": 6
+  },
+  "network": {
+    "interval": 10,
+    "format-wifi": "{icon}",
+    "format-disconnected": "󰤠",
+    "tooltip-format-wifi": "󰤨 {essid} |  {bandwidthDownBytes} |  {bandwidthUpBytes}",
+    "tooltip-format-disconnected": "Disconnected",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤢", "󰤨"],
+    "on-click": "kitty -1 -e nmtui"
+  },
+  "wireplumber": {
+    "format": "{icon}",
+    "format-muted": "",
+    "format-icons": ["", "", ""],
+    "tooltip-format": "{icon} Percentage: {percent}%",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click-right": "pavucontrol"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "tooltip-format": "{icon} Percentage: {percent}%",
+    "on-click": ""
+  },
+  "battery": {
+    "format": "{icon}",
+    "format-icons": [" ", " ", " ", " ", " "],
+    "states": {
+      "warning": 30,
+      "critical": 15
+    }
+  },
+  "clock": {
+    "format": "{:%I\n%M}",
+    "tooltip": true,
+    "tooltip-format": "{:%A, %B %d}",
+    "timezone": "America/Sao_Paulo",
+    "on-click": "gnome-calendar"
+  },
+  "hyprland/language": {
+    "format": "⌨ {shortDescription}"
+  }
+}
