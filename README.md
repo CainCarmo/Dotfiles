@@ -12,6 +12,40 @@
 
 <br />
 
+<table><tr>
+  <td>
+    <code>s</code><br/><code>p</code><br/><code>e</code><br/><code>c</code><br/><code>s</code><br/>
+  </td>
+  <td>
+    <table>
+      <tr>
+        <td><strong>OS</strong></td><td><code>Arch Linux</code></td>
+      </tr>
+      <tr>
+        <td><strong>WM</strong></td><td><code>Hyprland</code></td>
+      </tr>
+      <tr>
+        <td><strong>Pallete</strong></td><td><code>GruvBox Dark</code></td>
+      </tr>
+      <tr>
+        <td><strong>Bar</strong></td><td><code>Waybar</code></td>
+      </tr>
+      <tr>
+        <td><strong>Shell</strong></td><td><code>Zsh</code></td>
+      </tr>
+      <tr>
+        <td><strong>Terminal</strong></td><td><code>Kitty</code></td>
+      </tr>
+      <tr>
+        <td><strong>Launcher</strong></td><td><code>Rofi</code></td>
+      </tr>
+      <tr>
+        <td><strong>Browser</strong></td><td><code>Zen Browser</code></td>
+      </tr>
+    </table>
+  </td>
+</tr></table>
+
 ## 🎬 Preview
 
 | Greeter (sddm) |
