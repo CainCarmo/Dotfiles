@@ -64,6 +64,10 @@
 | :-------------------------------------: |
 | ![][launcher_progs] ![][launcher_emoji] |
 
+## 🎨 Wallpapers
+
+The wallpapers used in the screenshots can be found in Google Drive: [Download Here](https://drive.google.com/file/d/1Bg64Y7wtoc0ek6R0e2bHdqVMjmSpcMEJ/view?usp=sharing)
+
 ## 🎹 Keybindings
 
 > ### Apps
