@@ -24,6 +24,18 @@ Welcome to my Dotfiles repository! This repository contains all my personal conf
   <img align="center" width="100%" src="https://raw.githubusercontent.com/CainCarmo/Dotfiles/refs/heads/kuroshiro/assets/images/7.png" />
 </details>
 
+<details open>
+  <summary>
+    <h2>
+      <a href="https://github.com/CainCarmo/Dotfiles/tree/eleven">🪟 Eleven</a>
+    </h2>
+  </summary>
+
+  <img align="center" width="100%" src="https://raw.githubusercontent.com/CainCarmo/Dotfiles/refs/heads/eleven/Assets/Images/desktop-01.png" />
+  <br><br>
+  <img align="center" width="100%" src="https://raw.githubusercontent.com/CainCarmo/Dotfiles/refs/heads/eleven/Assets/Images/desktop-02.png" />
+</details>
+
 ## 👥 Contributing
 
 Feel free to fork this repository and submit pull requests. Contributions are welcome!
