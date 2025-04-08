@@ -39,7 +39,7 @@
 
 <table><tr>
   <td>
-    <code>w</code><br/><code>s</code><br/><code>l
+    <code>w</code><br/><code>s</code><br/><code>l</code><br/>
   </td>
   <td>
     <table>
