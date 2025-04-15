@@ -1,0 +1,17 @@
+######################
+# -> Window Rules <- #
+######################
+
+# This file contains rules for how to handle certain windows
+
+# >> Floating windows
+for_window {
+
+}
+
+# >> Assignments apps to workspaces
+assign {
+
+}
+
+# vim:set ft=conf:

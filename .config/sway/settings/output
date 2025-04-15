@@ -1,0 +1,21 @@
+################
+# -> Output <- #
+################
+
+# This file is used to configure the outputs of the system.
+
+## >> Laptop
+output eDP-1 {
+  pos 1440 0
+  resolution 1366x768
+}
+
+## >> External Monitor (TV)
+output HDMI-A-1 {
+  pos 0 0
+  resolution 1440x768
+}
+
+focus output HDMI-A-1
+
+# vim:set ft=conf:

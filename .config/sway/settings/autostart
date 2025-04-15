@@ -1,0 +1,7 @@
+###################
+# -> Autostart <- #
+###################
+
+# This file is used to start applications automatically when Sway starts.
+
+# vim:set ft=conf:

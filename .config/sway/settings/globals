@@ -1,0 +1,26 @@
+#################
+# -> Globals <- #
+#################
+
+# This file contains global variables for the Sway configuration.
+
+set {
+  # Modifiers
+  $main_mod Mod4
+  $main_alt_mod Mod4+Alt
+  $main_sft_mod Mod4+Shift
+
+  # Applications
+  $browser zen-browser
+  $launcher rofi
+  $terminal kitty -1
+  $file_manager nautilus
+  $audio_manager pavucontrol
+  $password_manager bitwarden
+
+  # Wallpapers
+  $wallpaper_desktop_1 $wallpaper_dir/desktop_1.jpg
+  $wallpaper_desktop_2 $wallpaper_dir/desktop_2.jpg
+}
+
+# vim:set ft=conf:

@@ -1,0 +1,12 @@
+################
+# -> Colors <- #
+################
+
+# This file is used to set the colors of the Sway window manager.
+
+# >> Colorscheme
+include $HOME/.config/sway/themes/kanagawa
+
+# >> Set colors
+
+# vim:set ft=conf:

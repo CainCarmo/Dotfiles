@@ -1,0 +1,11 @@
+##################
+# -> Keybinds <- #
+##################
+
+# This file contains all the keybinds for sway.
+
+bindsym --to-code {
+  $main_mod+B exec $browser --ProfileManager
+}
+
+# vim:set ft=conf:

@@ -1,0 +1,18 @@
+################
+# -> Layout <- #
+################
+
+# This file is used to set the layout of the Sway window manager.
+
+# -> SwayWM
+
+## >> Gaps
+gaps inner 6
+gaps outer 16
+
+## >> Borders
+for_window [app_id=".*"] border pixel 2
+
+# -> SwayFX
+
+# vim:set ft=conf:

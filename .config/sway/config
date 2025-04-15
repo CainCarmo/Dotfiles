@@ -1,0 +1,37 @@
+#####################
+# -> Sway Config <- #
+#####################
+
+# This file is used to set the configuration of the Sway window manager.
+
+# >> Sway globals variables
+include $HOME/.config/sway/settings/globals
+
+# >> Sway colors
+include $HOME/.config/sway/settings/colors
+
+# >> Sway window rules
+include $HOME/.config/sway/settings/rules
+
+# >> Sway autostart applications
+include $HOME/.config/sway/settings/autostart
+
+# >> Sway modes
+include $HOME/.config/sway/settings/modes
+
+# >> Sway output settings
+include $HOME/.config/sway/settings/output
+
+# >> Sway input settings
+include $HOME/.config/sway/settings/input
+
+# >> Sway layout settings
+include $HOME/.config/sway/settings/layout
+
+# >> Sway keybinds settings
+include $HOME/.config/sway/settings/keybinds
+
+# >> Sway general configuration
+include @sysconfdir@/sway/config.d/*
+
+# vim:set ft=conf:

@@ -1,0 +1,17 @@
+###############
+# -> Input <- #
+###############
+
+# This file contains the input settings for sway.
+
+input type:keyboard {
+  xkb_layout us,abnt2
+  xkb_options grp:win_space_toggle
+}
+
+input type:touchpad {
+  tap enabled
+  dwt enabled
+}
+
+# vim:set ft=conf:
